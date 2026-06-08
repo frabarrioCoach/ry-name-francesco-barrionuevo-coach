@@ -5366,10 +5366,7 @@ body.page-poster .site-header--poster {
     height: var(--poster-quadrant-height);
     max-height: var(--poster-quadrant-height);
     box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
+    overflow: hidden;
     align-self: stretch;
     min-width: 0;
     gap: clamp(6px, 1vw, 9px);
@@ -5632,10 +5629,7 @@ body.page-poster .site-header--poster {
   }
 
   body.page-poster .poster__quad-cell--contact {
-    overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
+    overflow: hidden;
   }
 }
 
@@ -6255,6 +6249,16 @@ body.page-poster .site-header--poster {
     padding: 0;
     scrollbar-gutter: auto;
   }
+
+  .poster__quad-cell--contact .poster__contact-scroll {
+    flex: none;
+    max-height: none !important;
+    overflow: visible !important;
+    overscroll-behavior: auto;
+    touch-action: auto;
+    padding: 0;
+    scrollbar-gutter: auto;
+  }
 }
 
 /* Desktop largo (griglia 2×2): area feedback scrollabile nel quadrante */
@@ -6272,39 +6276,55 @@ body.page-poster .site-header--poster {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
+
+  .poster__contact-scroll {
+    flex: 1 1 0;
+    min-height: 0;
+    min-width: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(6px, 1vw, 9px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 2px 6px 2px 0;
+    scrollbar-gutter: stable;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
 }
 
-/* Scrollbar sottile (Feedback + Contatti): come su desktop largo, anche finestra PC stretta */
+/* Scrollbar sottile (Feedback + Contatti): scroll interno, non sul riquadro arrotondato */
 .poster__feedback,
-.poster__quad-cell--contact {
+.poster__contact-scroll {
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
 }
 
 .poster__feedback::-webkit-scrollbar,
-.poster__quad-cell--contact::-webkit-scrollbar {
+.poster__contact-scroll::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
 
 .poster__feedback::-webkit-scrollbar-track,
-.poster__quad-cell--contact::-webkit-scrollbar-track {
+.poster__contact-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
 
 .poster__feedback::-webkit-scrollbar-thumb,
-.poster__quad-cell--contact::-webkit-scrollbar-thumb {
+.poster__contact-scroll::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.14);
   border-radius: 4px;
 }
 
 .poster__feedback::-webkit-scrollbar-thumb:hover,
-.poster__quad-cell--contact::-webkit-scrollbar-thumb:hover {
+.poster__contact-scroll::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.22);
 }
 
 .poster__feedback::-webkit-scrollbar-button,
-.poster__quad-cell--contact::-webkit-scrollbar-button {
+.poster__contact-scroll::-webkit-scrollbar-button {
   display: none;
   width: 0;
   height: 0;
@@ -6380,6 +6400,15 @@ body.page-poster .site-header--poster {
 .poster__quad-cell--contact.poster__contact {
   text-align: left;
   align-items: stretch;
+}
+
+.poster__contact-scroll {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-height: 0;
+  min-width: 0;
+  gap: clamp(7px, 1vw, 10px);
 }
 
 .poster__contact-invite {
