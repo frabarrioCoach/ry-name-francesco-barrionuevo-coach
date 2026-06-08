@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Francesco Barrionuevo Coach: consapevolezza e crescita. Primo incontro conoscitivo gratuito, circa 30 minuti."
+    />
+    <meta name="theme-color" content="#0e1119" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="Francesco Barrionuevo Coach" />
+    <meta name="apple-mobile-web-app-title" content="Francesco Barrionuevo Coach" />
+
+    <title>Francesco Barrionuevo Coach</title>
+
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="icon" href="./assets/icon-48.png" type="image/png" sizes="48x48" />
+    <link rel="icon" href="./assets/icon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="./assets/icon-180.png" sizes="180x180" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://francescobarrionuevomentalcoach.netlify.app/" />
+    <meta property="og:title" content="Francesco Barrionuevo Coach" />
+    <meta property="og:description" content="Francesco Barrionuevo Coach: consapevolezza e crescita. Primo incontro conoscitivo gratuito." />
+    <meta property="og:image" content="https://francescobarrionuevomentalcoach.netlify.app/assets/og-share.png?v=3" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Francesco Barrionuevo Coach — consapevolezza e crescita"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://francescobarrionuevomentalcoach.netlify.app/assets/og-share.png?v=3" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-poster">
+    <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+    <header class="site-header site-header--poster">
+      <div class="container header-inner">
+        <div class="header-brandCluster">
+          <a
+            class="brand-mark logo-sigillo logo-sigillo--header"
+            href="#top"
+            aria-label="Francesco Barrionuevo Coach, marchio · inizio pagina"
+          >
+            <img
+              class="brand__logo"
+              src="assets/logo-barrionuevo.png"
+              alt=""
+              width="70"
+              height="70"
+              decoding="async"
+            />
+          </a>
+          <a class="brand" href="#top" aria-label="Francesco Barrionuevo Coach · inizio pagina">
+            <span class="brand__text">
+              <span class="brand__name">Francesco Barrionuevo</span>
+              <span class="brand__meta">
+                <span class="brand__role">Coach</span>
+                <span class="brand__metaDot" aria-hidden="true">·</span>
+                <span class="brand__tagline">Consapevolezza e crescita</span>
+              </span>
+            </span>
+          </a>
+        </div>
+
+        <div class="header-end">
+          <button
+            type="button"
+            class="nav__cta header-cose-cta"
+            data-coach-what-open
+            aria-haspopup="dialog"
+            aria-controls="coachWhatDialog"
+          >
+            Cosa faccio
+          </button>
+          <button
+            type="button"
+            class="nav__cta header-perchi-cta"
+            data-coach-audience-open
+            aria-haspopup="dialog"
+            aria-controls="coachAudienceDialog"
+          >
+            Chi accompagno
+          </button>
+          <a class="nav__cta header-prova-cta" href="#agenda" data-prova-gratis>Prova gratuita</a>
+          <nav class="nav" aria-label="Navigazione principale">
+            <button
+              class="nav__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="navMenu"
+              aria-label="Apri il menu di navigazione"
+            >
+              <span class="nav__toggleLabel" data-nav-toggle-label>Menu</span>
+              <span class="nav__toggleChevron" aria-hidden="true"></span>
+            </button>
+
+            <div
+              id="navMenu"
+              class="nav__menu nav__menu--sheet"
+              data-state="closed"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Menu di navigazione"
+            >
+              <p class="nav__menu-kicker">Naviga</p>
+              <ul class="nav__menu-list">
+                <li>
+                  <button type="button" class="nav__menu-item" data-coach-what-open>Cosa faccio</button>
+                </li>
+                <li>
+                  <button type="button" class="nav__menu-item" data-coach-audience-open>Chi accompagno</button>
+                </li>
+                <li><a class="nav__menu-item" href="#dicono-di-me">Dicono di me</a></li>
+                <li><a class="nav__menu-item" href="#contatti">Contatti</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav__backdrop" data-nav-backdrop hidden aria-hidden="true"></div>
+
+    <main id="contenuto">
+      <section id="top" class="poster">
+        <div class="container poster__inner reveal">
+          <header class="poster__masthead">
+            <div class="poster__hero-lockup">
+              <div class="poster__masthead-copy">
+                <div class="poster__title-frame" data-title-beam>
+                  <h1 class="poster__title">
+                    Allena la mente per<br />
+                    <span class="accent">Scoprire</span> il tuo vero potenziale
+                  </h1>
+                </div>
+              </div>
+              <div class="poster__hero-signature">
+                <button
+                  type="button"
+                  class="poster__masthead-logo-link"
+                  data-logo-story-open
+                  aria-haspopup="dialog"
+                  aria-controls="logoStoryDialog"
+                  aria-label="Tocca il logo per scoprirne il significato"
+                >
+                  <span class="logo-sigillo logo-sigillo--hero">
+                    <img
+                      class="poster__masthead-logo"
+                      src="assets/logo-barrionuevo.png"
+                      alt=""
+                      width="176"
+                      height="176"
+                      decoding="async"
+                    />
+                  </span>
+                </button>
+              </div>
+            </div>
+          </header>
+
+          <div class="poster__quad">
+            <div class="poster__quad-cell poster__quad-cell--media">
+              <div
+                class="hero-life-carousel"
+                data-hero-life-carousel
+                role="region"
+                aria-roledescription="carosello"
+                aria-label="Foto personale"
+                tabindex="0"
+              >
+                <div class="hero-life-carousel__viewport">
+                  <div class="hero-life-carousel__track" data-hero-life-track>
+                    <figure class="hero-life-carousel__slide hero-life-carousel__slide--solo">
+                      <img
+                        src="foto/FraSolitario.jpeg"
+                        alt=""
+                        width="1200"
+                        height="800"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="hero-life-carousel__btn hero-life-carousel__btn--prev"
+                  data-hero-life-prev
+                  aria-label="Scatto precedente"
+                >
+                  <span aria-hidden="true">‹</span>
+                </button>
+                <button
+                  type="button"
+                  class="hero-life-carousel__btn hero-life-carousel__btn--next"
+                  data-hero-life-next
+                  aria-label="Scatto successivo"
+                >
+                  <span aria-hidden="true">›</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="poster__intro-stack">
+              <div class="poster__quad-cell poster__quad-cell--intro">
+                <div class="poster__intro-scroll">
+                  <div class="poster__intro-split">
+                    <div class="poster__mini-quad poster__mini-quad--chi">
+                      <p class="poster__hint poster__hint--quad poster__hint--intro">Chi sono</p>
+                      <div class="poster__mini-quad-body">
+                        <div class="poster__mini-quad-lead poster__mini-quad-lead--chi">
+                          <span class="poster__mini-quad-role">Francesco Barrionuevo</span>
+                        </div>
+                        <p class="poster__mini-quad-deck poster__mini-quad-deck--chi">
+                          <span class="poster__mini-quad-deck-line"
+                            ><span class="poster__mini-quad-deck-w">Sportivo</span> e
+                            <span class="poster__mini-quad-deck-w">programmatore</span> nel quotidiano. In sessione sono
+                            <span class="poster__mini-quad-deck-w">mental coach</span>.</span>
+                          <span class="poster__mini-quad-deck-line">Presenza e ascolto, concretezza, zero giudizio.</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="poster__mini-quad poster__mini-quad--cosa">
+                      <p class="poster__hint poster__hint--quad poster__hint--intro">Scrivimi pure</p>
+                      <div class="poster__mini-quad-body">
+                        <div class="poster__mini-quad-lead poster__mini-quad-lead--cosa">
+                          <span class="poster__mini-quad-role">Consapevolezza e crescita</span>
+                        </div>
+                        <p class="poster__mini-quad-deck poster__mini-quad-deck--cosa">
+                          <span class="poster__mini-quad-deck-line">Non serve avere tutto chiaro.</span>
+                          <span class="poster__mini-quad-deck-line">Un incontro tranquillo per capire se fa per te.</span>
+                          <a
+                            class="poster__tile poster__tile--proof poster__tile--in-deck"
+                            href="#dicono-di-me"
+                            aria-label="Vai alla sezione Cosa dicono di me"
+                          >
+                            <span class="poster__tile-proof__inner">
+                              <span class="poster__tile-proof__text">Cosa dicono di me</span>
+                              <span class="poster__tile-proof__chevron" aria-hidden="true"></span>
+                            </span>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="poster__intro-agenda">
+                <div id="agenda" class="poster__card" aria-labelledby="agenda-heading" tabindex="-1">
+                  <p id="agenda-heading" class="poster__card-k">Incontro conoscitivo gratuito</p>
+                  <p class="poster__card-sub">
+                    Circa <span class="poster__card-sub-w">30 minuti</span>, su appuntamento: ci conosciamo.
+                  </p>
+                  <div class="poster__card-actions">
+                    <a
+                      class="poster__tile poster__tile--wa"
+                      href="#"
+                      data-wa-b64="MzkzNDgzNjQxNDE0"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Scrivimi su WhatsApp dall’incontro conoscitivo gratuito"
+                    >
+                      WhatsApp
+                    </a>
+                    <a
+                      class="poster__tile poster__tile--book"
+                      href="https://calendar.app.google/RmQDwyRKrJizeZAeA"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Prenota
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="dicono-di-me" class="poster__quad-cell poster__quad-cell--feedback" aria-label="Dicono di me">
+              <p class="poster__hint poster__hint--quad" id="feedback-heading">Dicono di me</p>
+              <div class="poster__feedback" role="region" aria-labelledby="feedback-heading">
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Sei sessioni, in campo e fuori: altro modo di vedere le cose. Sono più consapevole e più libero. Mi sono aperto come non avevo mai fatto.”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Calciatore</span>
+                    <span class="poster__quote-name">Tommaso Perego</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Mi sono trovata molto bene, mi è stato molto utile; sicuramente ne farò altre.”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Universitaria</span>
+                    <span class="poster__quote-name">Sofia Limonta</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>“Attenzione e cura: ascolto e sintesi che mi hanno dato ordine nei pensieri.”</blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Psicologa organizzativa</span>
+                    <span class="poster__quote-name">Francesca</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Presenza vera: si sente che ci tieni, non che ‘è solo un lavoro’. Risultati già da subito.”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Nuotatrice</span>
+                    <span class="poster__quote-name">Sofia Bossi</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>“Sono più felice e ho tolto un peso enorme dentro di me.”</blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Meccanico</span>
+                    <span class="poster__quote-name">Simone Bettonagli</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Da restia ad ascoltata: più nel processo che nel risultato, più presente. Una presenza che non dà nulla per scontato.”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Powerlifter</span>
+                    <span class="poster__quote-name">Alice Pozzi</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Francesco è stato molto d’aiuto, non solo per quello che era il mio obiettivo reale nello studio, ma anche come allenatore di vita.”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Studente informatico</span>
+                    <span class="poster__quote-name">Gabriele Serughetti</span>
+                  </figcaption>
+                </figure>
+                <figure class="poster__quote">
+                  <blockquote>
+                    “Conosco Fra da quando siamo piccoli ed ha sempre avuto a cuore l’emotività delle persone. Ho consigliato a diversi amici di intraprendere questo percorso, fatelo anche voi!”
+                  </blockquote>
+                  <figcaption class="poster__quote-cap">
+                    <span class="poster__quote-role">Coach</span>
+                    <span class="poster__quote-name">Matteo Daminelli</span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div id="contatti" class="poster__quad-cell poster__quad-cell--contact poster__contact">
+              <p class="poster__hint poster__hint--quad">Contatti</p>
+              <p class="poster__contact-invite">
+                Hai qualche domanda? <span class="poster__contact-invite-highlight">Scrivimi pure :)</span>
+              </p>
+              <ul class="poster__contact-list">
+                <li>
+                  <a
+                    class="poster__contact-row poster__contact-row--chevron"
+                    href="https://www.instagram.com/frabarrio/"
+                    target="_blank"
+                    rel="noreferrer"
+                    id="instagramLink"
+                  >
+                    <span class="poster__contact-row-label">Instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="poster__contact-row poster__contact-row--chevron"
+                    href="#"
+                    id="emailLink"
+                    data-mail-b64="ZnJhbmNpLmJhcnJpb251ZXZvQGdtYWlsLmNvbQ=="
+                    aria-label="Scrivimi via email"
+                  >
+                    <span class="poster__contact-row-label">Email</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="poster__contact-row poster__contact-row--chevron"
+                    href="#"
+                    id="whatsappLink"
+                    data-wa-b64="MzkzNDgzNjQxNDE0"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Scrivimi su WhatsApp"
+                  >
+                    <span class="poster__contact-row-label">WhatsApp</span>
+                  </a>
+                </li>
+              </ul>
+
+              <div id="codici-etici" class="poster__contact-contract" aria-label="Codici etici professionali">
+                <p class="poster__hint poster__hint--quad poster__hint--contract-inline">Codici etici</p>
+                <div class="poster__contract">
+                  <p class="poster__contract-lead">
+                    <span class="poster__contract-lead-w">ICF</span> e
+                    <span class="poster__contract-lead-w">Codice globale</span> (EMCC): deontologia e responsabilità
+                    nel coaching
+                  </p>
+                  <div class="poster__contract-cta-stack">
+                    <a
+                      class="poster__contract-cta"
+                      href="https://www.coachingfederation.it/wp-content/uploads/2025/05/Codice-Etico-ICF-2025-Ita.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Scarica o apri il Codice etico ICF 2025 in italiano (PDF, nuova scheda)"
+                    >
+                      <span class="poster__contract-cta-label">Codice etico ICF</span>
+                      <span class="poster__contract-cta-badge">PDF</span>
+                    </a>
+                    <a
+                      class="poster__contract-cta"
+                      href="https://www.emccitalia.it/codice-etico/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Apri il Codice etico globale in italiano su EMCC Italia (nuova scheda)"
+                    >
+                      <span class="poster__contract-cta-label">Codice etico globale (EMCC)</span>
+                      <span class="poster__contract-cta-badge">IT</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer--poster">
+      <div class="container footer-inner footer-inner--poster">
+        <p class="footer__small footer__poster-copy">
+          © <span id="year"></span> Francesco Barrionuevo · Consapevolezza e crescita
+        </p>
+        <p class="footer__small footer__poster-school">
+          Formazione in linea con gli standard ICF presso&nbsp;<a
+            class="footer__school-link"
+            href="https://kingstowncollege.it/"
+            target="_blank"
+            rel="noreferrer"
+            >Kingstown College Italia</a>.
+        </p>
+      </div>
+    </footer>
+
+    <dialog id="logoStoryDialog" class="logo-story" aria-labelledby="logoStoryTitle" aria-describedby="logoStoryDesc">
+      <button type="button" class="logo-story__close" data-logo-story-close aria-label="Chiudi">
+        <span aria-hidden="true">×</span>
+      </button>
+      <div class="logo-story__layout">
+        <figure class="logo-story__figure">
+          <img
+            class="logo-story__img"
+            src="assets/logo-barrionuevo.png"
+            alt=""
+            width="240"
+            height="240"
+            decoding="async"
+          />
+        </figure>
+        <div class="logo-story__copy" id="logoStoryDesc">
+          <p class="logo-story__kicker">Il logo</p>
+          <h2 id="logoStoryTitle" class="logo-story__title">Movimento, slancio, obiettivo</h2>
+          <p class="logo-story__lead">
+            Una persona in movimento che punta a un traguardo e ci arriva: non per caso, ma con impegno e continuità.
+          </p>
+          <ul class="logo-story__points">
+            <li>
+              <strong>La figura dorata</strong> sei tu nel fare: presenza, azione, nessuna posa fissa.
+            </li>
+            <li>
+              <strong>L’arco blu</strong> è lo slancio, la spinta che nasce dal lavoro quotidiano, anche quando è faticoso.
+            </li>
+            <li>
+              <strong>Il punto in alto</strong> è l’obiettivo: chiaro, lontano abbastanza da richiedere un percorso, vicino abbastanza da sentirlo possibile.
+            </li>
+          </ul>
+          <p class="logo-story__close-note">
+            È il filo che unisce sport, studio e coaching: mettere la mente in movimento verso ciò che conta, fino a raggiungerlo.
+          </p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="coachWhatDialog" class="logo-story logo-story--solo" aria-labelledby="coachWhatTitle" aria-describedby="coachWhatDesc">
+      <button type="button" class="logo-story__close" data-coach-what-close aria-label="Chiudi">
+        <span aria-hidden="true">×</span>
+      </button>
+      <div class="logo-story__solo" id="coachWhatDesc">
+        <section class="logo-story__section logo-story__section--what" aria-labelledby="coachWhatTitle">
+          <p class="logo-story__kicker">Il coaching</p>
+          <h2 id="coachWhatTitle" class="logo-story__title">Cosa faccio</h2>
+          <p class="logo-story__lead logo-story__lead--panel">
+            Ti accompagno a scoprire il tuo <strong>vero potenziale</strong>, nella vita di tutti i giorni.
+          </p>
+          <div class="logo-story__what-grid">
+            <article class="logo-story__what-card logo-story__what-card--scope">
+              <span class="logo-story__what-tag">Cos’è</span>
+              <p class="logo-story__what-copy">
+                Non è terapia né consulenza: lavoriamo sul presente e sul futuro, con obiettivi e passi concreti.
+              </p>
+            </article>
+            <article class="logo-story__what-card logo-story__what-card--focus">
+              <span class="logo-story__what-tag">Al centro</span>
+              <p class="logo-story__what-copy">
+                Come mental coach metto al centro la <strong>mente in azione</strong>:
+              </p>
+              <ul class="logo-story__what-pillars" aria-label="Aree di lavoro">
+                <li>focus</li>
+                <li>fiducia</li>
+                <li>pressione</li>
+                <li>abitudini</li>
+                <li>scelte</li>
+              </ul>
+            </article>
+          </div>
+          <p class="logo-story__text logo-story__text--last logo-story__text--note logo-story__text--partnership">
+            Il coaching è una partnership: insieme definiamo dove vuoi arrivare e come muoverti per farlo davvero.
+          </p>
+        </section>
+      </div>
+    </dialog>
+
+    <dialog id="coachAudienceDialog" class="logo-story logo-story--solo" aria-labelledby="coachAudienceTitle" aria-describedby="coachAudienceDesc">
+      <button type="button" class="logo-story__close" data-coach-audience-close aria-label="Chiudi">
+        <span aria-hidden="true">×</span>
+      </button>
+      <div class="logo-story__solo" id="coachAudienceDesc">
+        <section class="logo-story__section logo-story__section--audience" aria-labelledby="coachAudienceTitle">
+          <p class="logo-story__kicker">Chi accompagno</p>
+          <h2 id="coachAudienceTitle" class="logo-story__title">Ambienti diversi, stesso metodo</h2>
+          <p class="logo-story__lead logo-story__lead--panel">
+            Lavoro con persone in contesti molto diversi, sport, studio, lavoro: ciò che cambia è la
+            situazione, non il bisogno di <strong>chiarezza</strong> e <strong>slancio</strong>.
+          </p>
+          <ul class="logo-story__audience" aria-label="Esempi di percorsi">
+            <li class="logo-story__audience-item logo-story__audience-item--sport">
+              <span class="logo-story__audience-tag">Sport e squadra</span>
+              <span class="logo-story__audience-desc">Calciatori, atleti, chi vive la pressione del risultato</span>
+            </li>
+            <li class="logo-story__audience-item logo-story__audience-item--study">
+              <span class="logo-story__audience-tag">Università e studio</span>
+              <span class="logo-story__audience-desc">Studenti, esami, organizzazione e motivazione</span>
+            </li>
+            <li class="logo-story__audience-item logo-story__audience-item--work">
+              <span class="logo-story__audience-tag">Lavoro e organizzazioni</span>
+              <span class="logo-story__audience-desc">Professionisti, team, ruoli e responsabilità</span>
+            </li>
+            <li class="logo-story__audience-item logo-story__audience-item--shift">
+              <span class="logo-story__audience-tag">Scelte e transizioni</span>
+              <span class="logo-story__audience-desc">Quando serve mettere ordine prima di decidere</span>
+            </li>
+          </ul>
+          <p class="logo-story__text logo-story__text--last logo-story__text--note">
+            Non serve avere un «problema»: basta voler migliorare qualcosa che già senti importante.
+          </p>
+        </section>
+      </div>
+    </dialog>
+
+<div id="chemistryBackdrop" class="chemistry-backdrop" hidden aria-hidden="true"></div>
+    <div
+      id="chemistryAnnounce"
+      class="chemistry-announce"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      hidden
+    ></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+================================================================================
+  COME METTERE IL SITO ONLINE CON GITHUB (guida passo passo)
+  Francesco Barrionuevo Coach
+================================================================================
+
+Questa cartella contiene SOLO i file del sito web, pronti da caricare.
+Non serve capire Git o il codice: segui i passi in ordine.
+
+
+--------------------------------------------------------------------------------
+PARTE 1 — Crea l'account e il repository (5 minuti)
+--------------------------------------------------------------------------------
+
+1. Apri il browser e vai su:  https://github.com
+
+2. Se non hai un account:
+   - Clicca "Sign up"
+   - Segui la registrazione (email, password, username)
+   - Conferma l'email se te la chiedono
+
+3. Una volta dentro, apri questa pagina:
+   https://github.com/new
+
+4. Compila così:
+
+   Repository name:
+   francesco-barrionuevo-coach
+
+   Description (descrizione):
+   Sito web di Francesco Barrionuevo — mental coach. Incontro conoscitivo gratuito, testimonianze e contatti.
+
+   Visibility:
+   ● Public  (deve essere Public per il sito gratis)
+
+   Spunta SOLO queste opzioni:
+   [ ] Add a README file        → NON spuntare
+   [ ] Add .gitignore           → NON spuntare
+   [ ] Choose a license         → None
+
+5. Clicca il pulsante verde:  Create repository
+
+
+--------------------------------------------------------------------------------
+PARTE 2 — Carica i file di questa cartella (10 minuti)
+--------------------------------------------------------------------------------
+
+Dopo "Create repository" vedi una pagina quasi vuota.
+
+6. Clicca il link:  "uploading an existing file"
+   (oppure: "Add file" in alto → "Upload files")
+
+7. Apri sul PC la cartella:
+   GITHUB-carica-questi-file
+
+   (è la cartella dove si trova questo file LEGGIMI)
+
+8. Seleziona TUTTO quello che c'è dentro:
+   - index.html
+   - cammino.html
+   - styles.css
+   - script.js
+   - site.webmanifest
+   - README.md
+   - cartella assets  (tutta)
+   - cartella foto     (tutta)
+
+   Trascina tutto nell'area di GitHub dove dice
+   "Drag files here to add them to your repository"
+
+   ATTENZIONE:
+   - Non trascinare la cartella GITHUB-carica-questi-file intera.
+   - Trascina il CONTENUTO (i file e le due cartelle assets e foto).
+
+9. In basso, nel riquadro "Commit changes":
+   - Title:  Prima pubblicazione sito
+   - Clicca il pulsante verde:  Commit changes
+
+10. Aspetta che finisca il caricamento (barra verde / pagina con l'elenco file).
+
+
+--------------------------------------------------------------------------------
+PARTE 3 — Attiva GitHub Pages (sito visibile online)
+--------------------------------------------------------------------------------
+
+11. Nella pagina del repository, clicca in alto:  Settings
+    (icona ingranaggio)
+
+12. Menu a sinistra: clicca  Pages
+
+13. Sotto "Build and deployment":
+    - Source:  Deploy from a branch
+    - Branch:  main   →   folder:  / (root)   →   Save
+
+14. Aspetta 1-3 minuti. Ricarica la pagina Settings → Pages.
+
+15. Compare un riquadro verde con il link del sito, tipo:
+
+    https://TUO-USERNAME.github.io/francesco-barrionuevo-coach/
+
+    Sostituisci TUO-USERNAME con il tuo nome utente GitHub.
+
+16. Apri quel link nel browser: è il tuo sito online!
+
+    Condividilo su WhatsApp, Instagram, email, ecc.
+
+
+--------------------------------------------------------------------------------
+PROBLEMI FREQUENTI
+--------------------------------------------------------------------------------
+
+• "Repository name already taken"
+  → Cambia nome in: mental-coach-barrionuevo
+  → Il link sarà: ...github.io/mental-coach-barrionuevo/
+
+• Il sito non si apre subito
+  → Aspetta 5 minuti e riprova. GitHub impiega un po' la prima volta.
+
+• Foto o stile mancanti
+  → Controlla di aver caricato anche le cartelle assets e foto, non solo i .html
+
+• Pagina 404
+  → Verifica che index.html sia nella root del repo (non dentro un'altra cartella)
+
+
+--------------------------------------------------------------------------------
+DOPO — Aggiornare il sito
+--------------------------------------------------------------------------------
+
+Quando modifichi il sito sul PC:
+1. Aggiorna i file in questa cartella GITHUB-carica-questi-file
+   (oppure chiedi di rigenerarla)
+2. Su GitHub: Add file → Upload files
+3. Carica i file cambiati (sovrascrivono i vecchi)
+4. Commit changes
+5. GitHub Pages si aggiorna da solo in pochi minuti
+
+
+================================================================================
+Hai bisogno di aiuto? Tieni a portata:
+- il tuo username GitHub
+- lo screenshot se qualcosa non va
+================================================================================
