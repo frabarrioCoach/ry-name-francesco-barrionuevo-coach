@@ -1,0 +1,39 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Processo in avanti</title>
+  <desc>Marchio a sorriso in corsa: direzione verso l’alto, coaching come movimento continuo.</desc>
+  <defs>
+    <linearGradient id="sw" x1="2" y1="52" x2="62" y2="2" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ececec"/>
+      <stop offset="42%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5ebd2"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="32%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f4f0ea"/>
+      <stop offset="100%" stop-color="#a69886" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+  <!-- Curva fluida fino alla punta -->
+  <path
+    d="M 6 44 C 12 47 18 47.5 23.75 46 C 29.5 44.5 35 41 40 36 C 44 32 47.5 27 50.625 21.75 C 53.75 16.5 56.5 11 59 6"
+    stroke="url(#sw)"
+    stroke-width="4.1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <!-- Freccia disegnata sulla punta (tangente uscente verso destra-in basso nello spazio SVG) -->
+  <g transform="translate(59 6) rotate(63.4)">
+    <path
+      d="M 0 0 L -9.5 -4.6 L -3.2 0 L -9.5 4.6 Z"
+      fill="#fffef9"
+      stroke="rgba(241, 208, 122, 0.75)"
+      stroke-width="0.42"
+      stroke-linejoin="round"
+    />
+  </g>
+  <ellipse cx="18" cy="17.85" rx="2.55" ry="2.2" fill="url(#eye)" stroke="rgba(255, 255, 255, 0.38)" stroke-width="0.5"/>
+  <ellipse cx="36" cy="17.85" rx="2.55" ry="2.2" fill="url(#eye)" stroke="rgba(255, 255, 255, 0.38)" stroke-width="0.5"/>
+  <circle cx="16.95" cy="16.45" r="0.82" fill="#ffffff" opacity="0.92"/>
+  <circle cx="34.95" cy="16.45" r="0.82" fill="#ffffff" opacity="0.92"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 220) rotate(36) scale(560 420)">
+      <stop stop-color="#7AA2FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7AA2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(870 260) rotate(12) scale(520 420)">
+      <stop stop-color="#1F8A7A" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#1F8A7A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 120) rotate(18) scale(540 340)">
+      <stop stop-color="#C7B48A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#C7B48A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="transparent"/>
+
+  <g filter="url(#blur)">
+    <path d="M188 538C239 366 412 229 606 238C789 246 978 390 966 540C954 690 786 780 594 770C384 759 137 709 188 538Z" fill="url(#g1)"/>
+    <path d="M380 710C325 590 396 430 550 370C708 308 928 358 990 494C1052 630 960 748 804 790C626 837 438 826 380 710Z" fill="url(#g2)"/>
+    <path d="M656 214C694 144 812 92 928 110C1044 128 1122 212 1096 286C1070 360 930 366 808 350C692 335 616 288 656 214Z" fill="url(#g3)"/>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M64 596C184 480 328 412 496 392C676 370 872 412 1084 518" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M102 660C230 536 382 464 558 446C746 426 934 472 1098 584" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M110 506C228 404 374 342 548 328C742 312 932 372 1102 476" stroke="url(#line)" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0E1119"/>
+      <stop offset="1" stop-color="#141A25"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E0B84E" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F1D07A" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+  <rect x="90" y="110" width="1020" height="580" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)"/>
+  <circle cx="140" cy="160" r="10" fill="rgba(224,184,78,0.85)"/>
+  <circle cx="175" cy="160" r="10" fill="rgba(255,255,255,0.22)"/>
+  <circle cx="210" cy="160" r="10" fill="rgba(31,138,122,0.65)"/>
+
+  <g opacity="0.9" stroke-linecap="round">
+    <path d="M360 300L290 360L360 420" stroke="url(#acc)" stroke-width="12"/>
+    <path d="M840 300L910 360L840 420" stroke="url(#acc)" stroke-width="12"/>
+    <path d="M520 460L680 260" stroke="rgba(255,255,255,0.50)" stroke-width="10"/>
+  </g>
+
+  <g opacity="0.55" stroke="rgba(255,255,255,0.10)" stroke-width="2">
+    <path d="M160 250H520"/>
+    <path d="M160 290H460"/>
+    <path d="M160 330H500"/>
+    <path d="M160 370H420"/>
+    <path d="M160 410H480"/>
+    <path d="M160 450H380"/>
+  </g>
+
+  <text x="120" y="720" fill="rgba(255,255,255,0.62)" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="26">
+    Programmazione / UX
+  </text>
+</svg>

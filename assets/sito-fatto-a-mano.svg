@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="sfm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a0c14"/>
+      <stop offset="1" stop-color="#121826"/>
+    </linearGradient>
+    <linearGradient id="sfm-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e8c76a"/>
+      <stop offset="1" stop-color="#f1d07a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#sfm-bg)"/>
+  <!-- cornice disegnata -->
+  <path d="M96 118 C420 88 780 88 1104 118" stroke="rgba(224,184,78,0.35)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M88 680 C380 710 820 710 1112 680" stroke="rgba(224,184,78,0.28)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- laptop doodle -->
+  <rect x="380" y="220" width="440" height="260" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(224,184,78,0.45)" stroke-width="3"/>
+  <rect x="340" y="495" width="520" height="28" rx="8" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <path d="M520 250 L580 310 L640 250 M560 330 L600 390 L560 450" stroke="url(#sfm-gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <circle cx="600" cy="360" r="36" stroke="rgba(224,184,78,0.5)" stroke-width="3" fill="none"/>
+  <!-- piccole stelle -->
+  <path d="M240 200 L248 216 L264 216 L252 226 L258 242 L240 232 L222 242 L228 226 L216 216 L232 216 Z" fill="rgba(224,184,78,0.55)"/>
+  <path d="M920 240 L925 250 L936 250 L928 256 L932 268 L920 262 L908 268 L912 256 L904 250 L915 250 Z" fill="rgba(224,184,78,0.45)"/>
+  <path d="M180 520 L186 532 L198 532 L189 538 L193 552 L180 544 L167 552 L171 538 L162 532 L174 532 Z" fill="rgba(224,184,78,0.35)"/>
+  <!-- testo -->
+  <text x="600" y="598" text-anchor="middle" fill="rgba(255,255,255,0.94)" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="42" font-weight="500">
+    Questo sito lho fatto io.
+  </text>
+  <text x="600" y="652" text-anchor="middle" fill="rgba(224,184,78,0.88)" font-family="system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="22" letter-spacing="0.06em">
+    Francesco Barrionuevo � Mental Coach
+  </text>
+  <text x="600" y="692" text-anchor="middle" fill="rgba(255,255,255,0.42)" font-family="system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="17">
+    Bozza, codice e cura dei dettagli: tutto mio.
+  </text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Movimento continuo</title>
+  <desc>
+    Spirale aperta e figura essenziale in stile petroglyph: percorso senza fine, presenza umana,
+    coaching come movimento radicato e non esagerato.
+  </desc>
+  <defs>
+    <linearGradient id="goldFig" x1="22" y1="8" x2="44" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff6dc"/>
+      <stop offset="42%" stop-color="#e8ca7a"/>
+      <stop offset="100%" stop-color="#9d7430"/>
+    </linearGradient>
+    <linearGradient id="spiralStroke" x1="6" y1="56" x2="56" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6b7c9c" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#e8ecf8" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <!-- Spirale aperta: simbolo antico del cammino, un solo gesto -->
+  <path
+    d="M 9 52 C 9 34 24 22 40 24.5 C 52 26 56 40 49 51.5 C 43 60 29 60.5 22 53.5 C 16.5 48 17 38 24 32.5"
+    stroke="url(#spiralStroke)"
+    stroke-width="2.2"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Figura minimale: testa, tronco, braccia verso l'alto (petroglyph moderno) -->
+  <circle cx="32" cy="19.5" r="4.7" fill="url(#goldFig)" stroke="rgba(255, 250, 235, 0.42)" stroke-width="0.5"/>
+  <path d="M 32 24.8 L 32 41.5" stroke="url(#goldFig)" stroke-width="2.35" stroke-linecap="round"/>
+  <path d="M 32 28 Q 23.5 18.5 17 13.5" stroke="url(#goldFig)" stroke-width="2.05" stroke-linecap="round" fill="none"/>
+  <path d="M 32 28 Q 40.5 18.5 47 13.5" stroke="url(#goldFig)" stroke-width="2.05" stroke-linecap="round" fill="none"/>
+</svg>
